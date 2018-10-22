@@ -34,6 +34,13 @@
     </LinearLayout>
 
     <!-- The Fragment -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/input_layout">
+    </FrameLayout>
+
     <fragment
         android:name="edu.uw.fragmentdemo.MovieListFragment"
         android:layout_width="match_parent"
